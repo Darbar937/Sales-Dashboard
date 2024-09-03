@@ -1,130 +1,70 @@
-# Sales-Dashboard
-# Dashboard Project
+# Getting Started with Create React App
 
-This project is a modern and clean React-based dashboard that includes a sidebar with navigation options and a pie chart visualizing the distribution of sales between a WooCommerce Store and a Shopify Store. The dashboard is responsive and visually appealing, with a light pink hover effect on sidebar items.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- **Sidebar Navigation**: A sidebar that allows for easy navigation through different sections of the dashboard.
-- **Pie Chart Visualization**: A responsive pie chart displaying sales distribution between WooCommerce and Shopify stores.
-- **Total Sales Indicator**: Total sales data is displayed at the center of the pie chart.
-- **Hover Effects**: The sidebar items have a light pink hover effect for better user experience.
+In the project directory, you can run:
 
-## Project Structure
+### `npm start`
 
-dashboard/ ├── public/ │ ├── index.html ├── src/ │ ├── components/ │ │ ├── PieChart.js │ ├── App.js │ ├── App.css │ ├── index.js ├── package.json ├── README.md
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Getting Started
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
+### `npm test`
 
-### Prerequisites
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Node.js**: Ensure that Node.js is installed on your machine. You can download it from [here](https://nodejs.org/).
+### `npm run build`
 
-### Installation
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/dashboard.git
-   cd dashboard
-2.**Install dependencies**: 
-Navigate to the project directory and install the required dependencies using npm:
-**npm install**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
 ### Deployment
-To create a production build of the app, use the following command:
-**npm run build**
-This will create an optimized build of your app in the build/ folder, ready to be deployed to any static hosting service.
-### Customization
-### Sidebar Hover Color
-If you want to change the hover effect color of the sidebar, modify the sidebar ul li:hover style in App.css:
 
-**.sidebar ul li:hover {**
-  background-color: #ffe6f0; /* Change this to your desired hover color */
-}
-## Pie Chart Size and Labels
-To adjust the size of the pie chart or ensure that the labels are visible, you can modify the PieChart.js file located in the src/components/ directory. The size is controlled by the width and height properties in the .chart-container class.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Certainly! Here's the content ready for you to copy with a single click:
+### `npm run build` fails to minify
 
-markdown
-Copy code
-# Dashboard Project
-
-This project is a modern and clean React-based dashboard that includes a sidebar with navigation options and a pie chart visualizing the distribution of sales between a WooCommerce Store and a Shopify Store. The dashboard is responsive and visually appealing, with a light pink hover effect on sidebar items.
-
-## Features
-
-- **Sidebar Navigation**: A sidebar that allows for easy navigation through different sections of the dashboard.
-- **Pie Chart Visualization**: A responsive pie chart displaying sales distribution between WooCommerce and Shopify stores.
-- **Total Sales Indicator**: Total sales data is displayed at the center of the pie chart.
-- **Hover Effects**: The sidebar items have a light pink hover effect for better user experience.
-
-## Project Structure
-
-dashboard/ ├── public/ │ ├── index.html ├── src/ │ ├── components/ │ │ ├── PieChart.js │ ├── App.js │ ├── App.css │ ├── index.js ├── package.json ├── README.md
-
-csharp
-Copy code
-
-## Getting Started
-
-These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-- **Node.js**: Ensure that Node.js is installed on your machine. You can download it from [here](https://nodejs.org/).
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/dashboard.git
-   cd dashboard
-Install dependencies: Navigate to the project directory and install the required dependencies using npm:
-bash
-Copy code
-npm install
-Running the Project
-To start the development server and view the dashboard in your browser, use the following command:
-
-bash
-Copy code
-npm start
-This will start the app and open it in your default web browser at http://localhost:3000.
-
-Deployment
-To create a production build of the app, use the following command:
-
-bash
-Copy code
-npm run build
-This will create an optimized build of your app in the build/ folder, ready to be deployed to any static hosting service.
-
-Customization
-Sidebar Hover Color
-If you want to change the hover effect color of the sidebar, modify the sidebar ul li:hover style in App.css:
-
-css
-Copy code
-.sidebar ul li:hover {
-  background-color: #ffe6f0; /* Change this to your desired hover color */
-}
-Pie Chart Size and Labels
-To adjust the size of the pie chart or ensure that the labels are visible, you can modify the PieChart.js file located in the src/components/ directory. The size is controlled by the width and height properties in the .chart-container class.
-
-# Technologies Used
-React: JavaScript library for building user interfaces.
-Chart.js: A simple yet flexible JavaScript charting library.
-CSS: For styling the components.
-# Contributing
-If you wish to contribute to this project, feel free to create a pull request or open an issue for discussion.
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-# Acknowledgments
-Thanks to Chart.js for providing the charting library used in this project.
-Inspired by various dashboard designs available online.
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
